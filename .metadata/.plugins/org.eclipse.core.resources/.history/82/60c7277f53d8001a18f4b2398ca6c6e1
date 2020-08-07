@@ -1,0 +1,38 @@
+/*
+ * Variáveis são áreas de memórias onde os dados são armazenados.
+ */
+public class Aplicacao {
+	
+	public static void main(String[] args) {
+		
+		//int numero;
+		//numero=50;
+		
+		//int numero = 50;
+		//int numero2 = numero + 5;
+		
+		//numero = numero -1;
+		//numero -= 1;
+		//numero--;
+		
+		//numero = numero * 2;
+		//numero *= 2;
+		
+		//System.out.println(numero);
+		
+		//boolean b = true;
+		//System.out.println(b);
+		
+		//int i = 10 + 5; // converte para o mais abrangente
+		//long l = 10L + 5;
+		
+		//int i = 0/0;
+		//System.out.println(i); // lança exception
+		
+		double b = 0.0/0;
+		System.out.println(b); // NaN
+		
+		double b2 = 10.0/0;
+		System.out.println(b2); // Infinity
+	}
+}

@@ -1,0 +1,25 @@
+
+public class Aplicacao {
+
+	public static void main(String[] args) {
+		exemploWhile();
+	}
+	
+	public static void exemploWhile() {
+		int x = 0;
+		
+		while(true) {
+			System.out.println(x);
+			
+			if(x==10) {
+				break;
+			}
+			x++;
+			
+		}
+	}
+	
+	public static void exemploDoWhile() {
+		
+	}
+}

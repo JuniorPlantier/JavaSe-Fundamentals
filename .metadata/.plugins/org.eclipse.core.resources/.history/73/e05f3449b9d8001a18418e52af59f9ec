@@ -1,0 +1,11 @@
+
+public class AlterarTipoDeDado {
+	
+	public static void main(String[] args) {
+		
+		int x = 10; // sem casting
+		
+		long x2 = 10; // casting implícito
+		
+	}
+}

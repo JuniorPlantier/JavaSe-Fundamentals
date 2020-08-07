@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 2 elements from project &apos;01-Variables&apos;&#x0D;&#x0A;- Original project: &apos;01-Variables&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     AlterarTipoDeDado.java&#x0D;&#x0A;     EstruturaDeControleIfElse.java" description="Delete elements" element1="/src&lt;{AlterarTipoDeDado.java" element2="/src&lt;{EstruturaDeControleIfElse.java" elements="2" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1596810089872" subPackages="false" version="1.0"/>
+</session>
