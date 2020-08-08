@@ -2,7 +2,7 @@
 public class Aplicacao {
 
 	public static void main(String[] args) {
-		
+		/*
 		Carro c = new Carro();
 		System.out.println("***** Carro ***** ***** ");
 		c.setMarca("XYZ");
@@ -18,8 +18,10 @@ public class Aplicacao {
 		m.setModelo("UYI");
 		m.setAno(2020);
 		m.imprimirDados();
-		
+		*/
 		//Caminhao cam = new Caminhao();
 		//cam.buzinar();
+		
+		Carro c = new Carro("Hyundai");
 	}
 }

@@ -5,6 +5,15 @@ public class Veiculo {
 	protected String modelo;
 	protected int ano;
 	
+//	public Veiculo() {
+//		System.out.println("Veículo()");
+//	}
+	
+	public Veiculo(String marca) {
+		System.out.println("Veiculo(String)");
+		this.marca = marca;
+	}
+	
 	public String getMarca() {
 		return marca;
 	}

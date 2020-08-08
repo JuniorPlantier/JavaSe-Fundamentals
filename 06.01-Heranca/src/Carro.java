@@ -3,6 +3,11 @@ public class Carro extends Veiculo {
 
 	private boolean quatroPortas;
 
+	public Carro(String marca) {
+		super(marca);
+		System.out.println("Carro(String)");
+	}
+	
 	public boolean isQuatroPortas() {
 		return quatroPortas;
 	}
