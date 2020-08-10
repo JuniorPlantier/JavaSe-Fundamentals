@@ -26,4 +26,9 @@ public class Jeep implements Carro, ItemCaro {
 		return 120000;
 	}
 
+	@Override
+	public void frear() {
+		System.out.println("Jeep abriu a freou");
+	}
+
 }
