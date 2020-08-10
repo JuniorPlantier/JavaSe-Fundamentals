@@ -15,9 +15,13 @@ public class Banco {
 			e1.printStackTrace();
 			System.out.println("Você tentou sacar um valor negativo de " + e1.getValor());
 			
+		} finally {
+			// é executado independente se deu ou não exceção.
+			System.out.println("Saldo: " + c.getSaldo());
+			
 		}
 				
-		System.out.println(c.getSaldo());
+		
 	}
 	
 }
