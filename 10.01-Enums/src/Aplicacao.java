@@ -15,5 +15,7 @@ public class Aplicacao {
 		String s = "TERCA"; // "terca"; -> lança uma exceção.
 		DiaDaSemana d = DiaDaSemana.valueOf(s);
 		System.out.println(d.getValor());
+		
+		Sexo sexo = Sexo.MASCULINO;
 	}
 }
